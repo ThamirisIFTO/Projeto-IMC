@@ -1,0 +1,24 @@
+{
+  "name": "api-pw",
+  "version": "1.0.0",
+  "description": "Calculadora IMC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "npx knex migrate:latest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "hapi": "^18.1.0",
+    "knex": "^0.95.14",
+    "pg": "^8.7.1",
+    "save": "^2.4.0",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/hapi": "^18.0.6"
+  }
+}
